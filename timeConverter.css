@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container{
+    background-image: url("https://assets.ccbp.in/frontend/dynamic-webapps/time-converter-bg.png");
+    height: 100vh;
+    padding: 30px;
+}
+.heading{
+ font-family: "Roboto";
+ font-size: 35px;
+ font-weight: 600;
+ color: white;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ text-decoration: underline;
+
+}
+.description{
+font-family: "Roboto";
+ font-size: 25px;
+ color: white;
+ padding-top: 15px;
+ padding-bottom: 15px;
+
+}
+.label{
+    font-family: "Roboto";
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+    
+}
+.input{
+    border-radius: 10px;
+    border-width: 0px;
+    height: 30px;
+}
+.convert-btn{
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 5px;
+padding: 5px;
+}
+.error-msg{
+
+    font-size: 15px;
+    font-family: "Roboto";
+    color: red;
+}
+.seconds{
+    font-size: 20px;
+    font-family: "Roboto";
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    max-width: 200px;
+    overflow-y: auto;
+
+   
+}
